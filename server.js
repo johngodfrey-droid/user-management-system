@@ -35,6 +35,7 @@ app.use('/js', express.static(path.resolve(__dirname,'public/js')));
 app.use('/', require('./server/routes/router'));
 
 
+
 app.listen(PORT, () => {
     console.log(`Server now running on port http://localhost:${PORT}...`);
 });
